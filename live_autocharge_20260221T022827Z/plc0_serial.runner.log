@@ -1,0 +1,1674 @@
+Capturing serial to /home/jpi/Desktop/EVSE/logs/live_autocharge_20260221T022827Z/plc0_serial.log (baud=115200, duration=7200s)
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T07:58:30 ===
+[PLC] HLC gate ENABLED
+[PLC] HLC enabled, waiting for CP stable
+Modem Search..
+[STAT] cp=B duty=100% sess=1 mode=2 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+[PLC] CP stable, waiting for modem
+[CP] duty -> 5% (pwm_ok=1 conn=1 hold=0 vent_block=0 hw=1 keyed=1 latched=1)
+[STAT] cp=B duty=5% sess=1 mode=3 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+[PLC] Local modem up, running SLAC
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+[RES] heap_free=22092 heap_min=21968 psram_free=2029439 stack_hwm=13828 words
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+[PLC] not ready: link=1 slac=0 keyed=1 vent_block=0 cp_connected=1
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+[PLC] not ready: link=1 slac=0 keyed=1 vent_block=0 cp_connected=1
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+received CM_SLAC_PARAM.REQ
+[SLAC] new run started sounds=10 epoch=3
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=2 modem=20 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+received CM_START_ATTEN_CHAR.IND
+[PLC] not ready: link=1 slac=0 keyed=1 vent_block=0 cp_connected=1
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=3 modem=30 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+received CM_START_ATTEN_CHAR.IND
+received CM_START_ATTEN_CHAR.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+transmitting CM_ATTEN_CHAR.IND (sounds complete)
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=4 modem=40 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+[RES] heap_free=22092 heap_min=21968 psram_free=2029439 stack_hwm=13828 words
+received CM_ATTEN_CHAR.RSP
+Successful SLAC process
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=5 modem=50 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+received CM_SLAC_MATCH.REQ
+transmitting CM_SLAC_MATCH.CNF
+=======================
+### ** SLAC MATCH ** ###
+=============================
+
+[PLC] readiness ON (cp=B link=1 keyed=1 slac=1 hw=1)
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+[PLC] PLC ready
+[STAT] cp=B duty=5% sess=1 mode=6 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+ICMPv6 received
+Its a UDP.
+it is a SDP request from the car to the charger
+Ok, this was a valid SDP request. We are the SECC. Sending SDP response. tls=0
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+-------------- TCP connection established ---------------
+
+SupportedApplicationProtocolRequest handled, selecting ISO15118-2 (Schema 0)
+SessionSetupReq.hex: 01FE80010000000E8098004011D01A2326CDE4FDA000
+ISO SessionSetupRequest EVCCID=88c9b3793f68
+SessionSetup: {"req":{"evccid":"88C9B3793F68"},"res":{"sessionId":"68A7FF3F2BF1FCD9","evseId":"SECC_ID_123","responseCode":"OK"}}
+ServiceDiscoveryReq.hex: 80010000000D809802CAFC7F3651B8
+ISO ServiceDiscoveryRequest
+ServiceDiscovery: {"res":{"responseCode":"OK"}}
+PaymentServiceSelectionReq.hex: 01FE8001000000108098021A29FFCFCAFC7F365132001280
+ISO PaymentServiceSelectionRequest
+PaymentServiceSelection: {"req":{"payment":"ExternalPayment"},"res":{"responseCode":"OK"}}
+AuthorizationReq.hex: 01FE80010000000D8098021A29FFCFCAFC7F365008
+ISO AuthorizationRequest
+Authorization: {"res":{"responseCode":"OK","processing":"Finished"}}
+ChargeParameterDiscoveryReq.hex: 01FE80010000001A8098021A29FFCFCAFC7F365094CA0008E0418688401E20
+ISO ChargeParameterDiscoveryRequest
+[HLC][ISO] EVStatus SoC=71% Ready=0 Error=0
+ChargeParameterDiscovery: {"req":{"etm":"DC_extended","evMaxA":59,"evMaxV":394,"soc":71},"res":{"responseCode":"OK","processing":"Finished"}}
+[RES] heap_free=21784 heap_min=21624 psram_free=2029439 stack_hwm=10548 words
+[CP] state B -> C (pkWin=1925 pk=1920 plateau=1881)
+[STAT] cp=C duty=5% sess=1 mode=6 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+CableCheckReq.hex: 0100108098FFCFFC7F365031002380
+ISO CableCheckRequest
+CableCheck: {"req":{"soc":71},"res":{"status":1}}
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+[RELAY_IO] relays set r1=1 r2=1 r3=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ICMPv6 received
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+[RES] heap_free=21784 heap_min=21624 psram_free=2029439 stack_hwm=10548 words
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[RES] heap_free=21584 heap_min=21440 psram_free=2029439 stack_hwm=10548 words
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.10V I=2.00A
+[DC][SET] precharge=1 req=360.1V/2.0A reqRaw=360100/2000 maxClamp=360100/2000 margin=0/0 apply=360100/2000 clampV=0 clampI=0
+80010000138029FFCFCAFC7F36022004
+ISO PowerDeliveryRequest
+PowerDelivery: {"req":{"progress":"Start"}}
+[HLC][ISO] CurrentDemand: target V=384.10V I=19.00A
+[DC][SET] precharge=0 req=384.1V/19.0A reqRaw=384100/19000 maxClamp=384100/19000 margin=5000/38 apply=379100/18962 clampV=0 clampI=0
+CurrentDemand: {"loop":0,"req":{"targetV":384.1,"targetI":19.0},"res":{"v":360.0,"i":0.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":0,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":1,"slow_samples":0,"avg_ms":1,"max_ms":1}
+[HLC][ISO] CurrentDemand: target V=384.10V I=21.20A
+[DC][SET] precharge=0 req=384.1V/21.2A reqRaw=384100/21200 maxClamp=384100/21200 margin=5000/42 apply=379100/21158 clampV=0 clampI=0
+CurrentDemand: {"loop":1,"req":{"targetV":384.1,"targetI":21.2},"res":{"v":360.0,"i":0.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":1,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=23.40A
+[DC][SET] precharge=0 req=384.1V/23.4A reqRaw=384100/23400 maxClamp=384100/23400 margin=5000/46 apply=379100/23354 clampV=0 clampI=0
+CurrentDemand: {"loop":2,"req":{"targetV":384.1,"targetI":23.4},"res":{"v":360.0,"i":0.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":2,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=25.40A
+[DC][SET] precharge=0 req=384.1V/25.4A reqRaw=384100/25400 maxClamp=384100/25400 margin=5000/50 apply=379100/25350 clampV=0 clampI=0
+CurrentDemand: {"loop":3,"req":{"targetV":384.1,"targetI":25.4},"res":{"v":360.0,"i":0.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":3,"value":4,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=27.40A
+[DC][SET] precharge=0 req=384.1V/27.4A reqRaw=384100/27400 maxClamp=384100/27400 margin=5000/54 apply=379100/27346 clampV=0 clampI=0
+CurrentDemand: {"loop":4,"req":{"targetV":384.1,"targetI":27.4},"res":{"v":360.0,"i":8.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":4,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=29.40A
+[DC][SET] precharge=0 req=384.1V/29.4A reqRaw=384100/29400 maxClamp=384100/29400 margin=5000/58 apply=379100/29342 clampV=0 clampI=0
+CurrentDemand: {"loop":5,"req":{"targetV":384.1,"targetI":29.4},"res":{"v":360.0,"i":20.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":5,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=31.40A
+[DC][SET] precharge=0 req=384.1V/31.4A reqRaw=384100/31400 maxClamp=384100/31400 margin=5000/62 apply=379100/31338 clampV=0 clampI=0
+CurrentDemand: {"loop":6,"req":{"targetV":384.1,"targetI":31.4},"res":{"v":361.0,"i":21.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":6,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=33.30A
+[DC][SET] precharge=0 req=384.1V/33.3A reqRaw=384100/33300 maxClamp=384100/33300 margin=5000/66 apply=379100/33234 clampV=0 clampI=0
+CurrentDemand: {"loop":7,"req":{"targetV":384.1,"targetI":33.3},"res":{"v":362.0,"i":21.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":7,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=35.30A
+[DC][SET] precharge=0 req=384.1V/35.3A reqRaw=384100/35300 maxClamp=384100/35300 margin=5000/70 apply=379100/35230 clampV=0 clampI=0
+CurrentDemand: {"loop":8,"req":{"targetV":384.1,"targetI":35.3},"res":{"v":364.0,"i":29.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":8,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=37.30A
+[DC][SET] precharge=0 req=384.1V/37.3A reqRaw=384100/37300 maxClamp=384100/37300 margin=5000/74 apply=379100/37226 clampV=0 clampI=0
+CurrentDemand: {"loop":9,"req":{"targetV":384.1,"targetI":37.3},"res":{"v":364.0,"i":29.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":9,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=39.30A
+[DC][SET] precharge=0 req=384.1V/39.3A reqRaw=384100/39300 maxClamp=384100/39300 margin=5000/78 apply=379100/39222 clampV=0 clampI=0
+CurrentDemand: {"loop":10,"req":{"targetV":384.1,"targetI":39.3},"res":{"v":365.0,"i":32.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":10,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=41.50A
+[DC][SET] precharge=0 req=384.1V/41.5A reqRaw=384100/41500 maxClamp=384100/41500 margin=5000/83 apply=379100/41417 clampV=0 clampI=0
+CurrentDemand: {"loop":11,"req":{"targetV":384.1,"targetI":41.5},"res":{"v":365.0,"i":34.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":11,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=43.50A
+[DC][SET] precharge=0 req=384.1V/43.5A reqRaw=384100/43500 maxClamp=384100/43500 margin=5000/87 apply=379100/43413 clampV=0 clampI=0
+CurrentDemand: {"l,"res":{"v":365.0,"i":35.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":12,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=45.40A
+[DC][SET] precharge=0 req=384.1V/45.4A reqRaw=384100/45400 maxClamp=384100/45400 margin=5000/90 apply=379100/45310 clampV=0 clampI=0
+CurrentDemand: {"loop":13,"req":{"targetV":384.1,"targetI":45.4},"res":{"v":365.0,"i":35.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":13,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=47.40A
+[DC][SET] precharge=0 req=384.1V/47.4A reqRaw=384100/47400 maxClamp=384100/47400 margin=5000/94 apply=379100/47306 clampV=0 clampI=0
+CurrentDemand: {"loop":14,"req":{"targetV":384.1,"targetI":47.4},"res":{"v":366.0,"i":39.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":14,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=49.20A
+[DC][SET] precharge=0 req=384.1V/49.2A reqRaw=384100/49200 maxClamp=384100/49200 margin=5000/98 apply=379100/49102 clampV=0 clampI=0
+CurrentDemand: {"loop":15,"req":{"targetV":384.1,"targetI":49.2},"res":{"v":366.0,"i":39.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":15,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.10A
+[DC][SET] precharge=0 req=384.1V/51.1A reqRaw=384100/51100 maxClamp=384100/51100 margin=5000/102 apply=379100/50998 clampV=0 clampI=0
+CurrentDemand: {"loop":16,"req":{"targetV":384.1,"targetI":51.1},"res":{"v":366.0,"i":43.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":16,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":17,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":367.0,"i":44.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":17,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":18,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":367.0,"i":45.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":18,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":19,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":367.0,"i":46.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":19,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":20,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":368.0,"i":50.7,"wh"}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":20,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":21,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":368.0,"i":50.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":21,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":22,"req":{"targetV":384.1,"targetI":51.4}and_roundtrip_ms{"proto":"ISO","loop":22,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":23,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":369.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":23,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":24,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":p_ms{"proto":"ISO","loop":24,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":25,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":25,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":369.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":25,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":26,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":26,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":27,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":27,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":28,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":28,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":29,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":29,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":30,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":30,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":31,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":31,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":32,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":32,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":33,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":33,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":34,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":34,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":35,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":370.0,"i":51.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":35,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.40A
+[DC][SET] precharge=0 req=384.1V/51.4A reqRaw=384100/51400 maxClamp=384100/51400 margin=5000/102 apply=379100/51298 clampV=0 clampI=0
+CurrentDemand: {"loop":36,"req":{"targetV":384.1,"targetI":51.4},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":36,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":37,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":38,"req":{"targetV":384.1,"targetI":51.3},"reroundtrip_ms{"proto":"ISO","loop":38,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":39,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":39,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":40,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":40,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":41,"req":{"targetV":384.1,"targetI":51.3}res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":41,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":42,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":42,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":43,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":43,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":44,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":44,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":45,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":45,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":46,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":46,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":47,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":47,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":48,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":48,"value":3,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":49,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":49,"value":2,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":50,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":50,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":50,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":51,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":51,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":52,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":52,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":53,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":53,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":54,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":54,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":55,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":55,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":56,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":56,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":57,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i"}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":57,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clam.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":58,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":59,"req":{"targetV":384.1,"targetI":51.3},"resmand_roundtrip_ms{"proto":"ISO","loop":59,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":60,"req":{"targetV":384.1,"targetI":51.3},"res":{"v"p_ms{"proto":"ISO","loop":60,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":61,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":61,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":62,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":62,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":63,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":63,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":64,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":64,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":65,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":65,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":66,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":66,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":67,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":67,"value":3,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":68,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":68,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":69,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":69,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":70,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":70,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":71,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":71,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":72,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":72,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":73,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":73,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":74,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":74,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":75,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":75,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":75,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":76,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":76,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":77,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":77,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":78,"req":{"targetV":384.1,"targetI":51.3}"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":78,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":79,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":79,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":80,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":80,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":81,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":81,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":82,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":82,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":83,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":83,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":84,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":84,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":85,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":85,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":86,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":86,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":87,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":37[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":87,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":88,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":88,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":89,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":89,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":90,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":90,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":91,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":91,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":92,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":92,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":93,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":93,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":94,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":94,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":95,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":95,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":96,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":96,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":97,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":97,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":98,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":98,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":99,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":99nd_roundtrip_summary{"samples":100,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":100,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":100,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":101,"req":{"targetV":38},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":101,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":102,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":102,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":103,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":103,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":104,"req":{"targetV"ETRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":104,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":105,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":105,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":106,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":106,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/mpI=0
+CurrentDemand: {"loop":107,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":107,"value":3,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":108,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":108,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":109,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":109,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":110,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":110,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":111,"req":{"targetV":384.1,"targetI":51.3},"r_roundtrip_ms{"proto":"ISO","loop":111,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":112,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":112,"value":1,"slow":0}
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":113,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":113,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":114,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":114,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":115,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":115,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":116,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":116,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":117,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":117,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":118,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":118,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":119,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":119,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":120,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":120,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":121,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":121,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":122,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":122,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":123,"req":{"targetV":384.1,"targetI":51.3_roundtrip_ms{"proto":"ISO","loop":123,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":124,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":124,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":125,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":125,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":125,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":126,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":126,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":127,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":127,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":128,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":128,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":129,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":129,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":130,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":130,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":131,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":131,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":132,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":132,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":133,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":133,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":134,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":134,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":135,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":135,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":136,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":136,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":137,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":375.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":137,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":138,"req":{"targetV":384.1,"targetI":51.3},"res":{"v"_ms{"proto":"ISO","loop":138,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":139,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":139,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":140,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":140,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":141,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":141,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":142,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":142,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":143,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":143,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":144,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":144,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":145,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":145,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":146,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":146,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":147,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":147,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":148,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":148,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":149,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":149,"value":2,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":150,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":150,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":150,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":151,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":151,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":152,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":152,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":153,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":153,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":154,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":154,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":155,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":155,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":156,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":156,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":157,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":157,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":158,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":158,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":159,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":159,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":160,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":160,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":161,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":161,"value":3,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":162,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":162,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":163,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":163,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":164,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":164,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":165,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":165,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":166,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":166,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":167,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":167,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":168,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":168,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":169,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":169,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":170,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":170,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":171,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":171,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":172,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":172,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":173,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":173,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":174,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":174,"value":2,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":175,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":175,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":175,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":176,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":176,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":177,"re},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":177,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":178,"req":{"targetV":384.1,"targetI":51.3},"r_roundtrip_ms{"proto":"ISO","loop":178,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":179,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":179,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":180,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":180,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":181,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":181,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":182,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":182,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":183,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":183,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":184,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":184,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":185,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":185,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":186,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":186,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":187,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":187,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":188,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":188,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":189,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":189,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":190,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":190,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":191,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":376.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":191,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":192,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":192,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":193,"req":{"targetV":384.1,"targetI":51.3_roundtrip_ms{"proto":"ISO","loop":193,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":194,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":194,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":195,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":195,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":196,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":196,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":197,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":377.0,"i":51.1,"wh":0}}
+[MET7,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":198,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.1,"wh":0}}
+demand_roundtrip_ms{"proto":"ISO","loop":198,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":199,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_rounlc.current_demand_roundtrip_summary{"samples":200,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":200,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":200,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":201,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":201,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":202,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":202,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":203,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":203,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":204,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":204,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":205,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":205,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":206,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":206,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":207,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":207,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":208,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":208,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":209,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":209,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":210,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":210,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":211,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":211,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":212,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":212,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":213,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":213,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":214,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":214,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":215,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":215,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":216,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":216,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":217,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":217,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":218,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":218,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":219,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":219,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":220,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":220,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":221,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":221,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":222,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":222,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":223,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":223,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":224,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":224,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":225,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+: {"loop":225,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":225,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":226,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":226,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":227,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":227,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":228,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":228,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":229,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":229,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":230,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":230,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":231,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":231,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":232,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":232,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":233,"req":{"targetV":384.1,"targetI":51.2[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":233,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":234,"req":{"targetV":384.1,"targetI":51.2_roundtrip_ms{"proto":"ISO","loop":234,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":235,"req":{"targetV":384.1,"targetI":51.2emand_roundtrip_ms{"proto":"ISO","loop":235,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":236,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":236,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":237,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":237,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":238,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":238,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":239,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":239,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":240,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":240,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":241,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":241,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":242,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":242,"value":2,"slow":0}
+m=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":243,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":243,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":244,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":244,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":245,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":245,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":246,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":246,"value":4,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":247,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":247,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":248,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":248,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":249,"req":{"targetV":384.1,"targetI":51.2},"r_roundtrip_ms{"proto":"ISO","loop":249,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":250,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":250,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":250,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":251,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":251,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":252,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":252,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":253,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":253,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":254,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":254,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":255,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":255,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":256,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":256,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":257,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":257,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":258,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":258,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":259,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":259,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":260,"req":{"targetV":384.1,"targetI":51.2"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":260,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":261,"req":{"targetV":384.1,"targetI":51.2_roundtrip_ms{"proto":"ISO","loop":261,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":262,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":263,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":263,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":264,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":264,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":265,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":265,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":266,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":266,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":267,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":267,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":268,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":268,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":269,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":269,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":270,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":270,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":271,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":271,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":272,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":272,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":273,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":273,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":274,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":274,"value":2,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":275,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":275,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":275,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":276,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":276,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":277,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":277,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":278,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":278,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":279,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+9,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":280,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":280,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.10A
+[DC][SET] precharge=0 req=384.1V/51.1A reqRaw=384100/51100 maxClamp=384100/51100 margin=5000/102 apply=379100/50998 clampV=0 clampI=0
+CurrentDemand: {"loop":281,"req":{"targetV":384.1,"targetI":51.1},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":281,"value":2,"slow":0}
+echarge=0 req=384.1V/50.8A reqRaw=384100/50800 maxClamp=384100/50800 margin=5000/101 apply=379100/50699 clampV=0 clampI=0
+CurrentDemand: {"loop":282,"req":{"targetV":384.1,"targetI":50.8},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":282,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=50.80A
+[DC][SET] precharge=0 req=384.1V/50.8A reqRaw=384100/50800 maxClamp=384100/50800 margin=5000/101 apply=379100/50699 clampV=0 clampI=0
+CurrentDemand: {"loop":283,"req":{"targetV":384.1,"targetI":50.8},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":283,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=50.20A
+[DC][SET] precharge=0 req=384.1V/50.2A reqRaw=384100/50200 maxClamp=384100/50200 margin=5000/100 apply=379100/50100 clampV=0 clampI=0
+CurrentDemand: {"loop":284,"req":{"targetV":384.1,"targetI":50.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":284,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=49.70A
+[DC][SET] precharge=0 req=384.1V/49.7A reqRaw=384100/49700 maxClamp=384100/49700 margin=5000/99 apply=379100/49601 clampV=0 clampI=0
+CurrentDemand: {"loop":285,"req":{"targetV":384.1,"targetI":49.7},"res":{"v":377.0,"i":50.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":285,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=49.30A
+[DC][SET] precharge=0 req=384.1V/49.3A reqRaw=384100/49300 maxClamp=384100/49300 margin=5000/98 apply=379100/49202 clampV=0 clampI=0
+CurrentDemand: {"loop":286,"req":{"targetV":384.1,"targetI":49.3},"res":{"v":377.0,"i":50.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":286,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=49.00A
+[DC][SET] precharge=0 req=384.1V/49.0A reqRaw=384100/49000 maxClamp=384100/49000 margin=5000/98 apply=379100/48902 clampV=0 clampI=0
+CurrentDemand: {"loop":287,"req":{"targetV":384.1,"targetI":49.0},"res":{"v":377.0,"i":50.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":287,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=48.50A
+[DC][SET] precharge=0 req=384.1V/48.5A reqRaw=384100/48500 maxClamp=384100/48500 margin=5000/97 apply=379100/48403 clampV=0 clampI=0
+CurrentDemand: {"loop":288,"req":{"targetV":384.1,"targetI":48.5},"res":{"v":377.0,"i":50.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":288,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=48.10A
+[DC][SET] precharge=0 req=384.1V/48.1A reqRaw=384100/48100 maxClamp=384100/48100 margin=5000/96 apply=379100/48004 clampV=0 clampI=0
+CurrentDemand: {"loop":289,"req":{"targetV":384.1,"targetI":48.1},"res":{"v":377.0,"i":50.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":289,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=47.80A
+[DC][SET] precharge=0 req=384.1V/47.8A reqRaw=384100/47800 maxClamp=384100/47800 margin=5000/95 apply=379100/47705 clampV=0 clampI=0
+CurrentDemand: {"loop":290,"req":{"targetV":384.1,"targetI":47.8},"res":{"v":377.0,"i":48.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":290,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=47.60A
+[DC][SET] precharge=0 req=384.1V/47.6A reqRaw=384100/47600 maxClamp=384100/47600 margin=5000/95 apply=379100/47505 clampV=0 clampI=0
+CurrentDemand: {"loop":291,"req":{"targetV":384.1,"targetI":47.6},"res":{"v":377.0,"i":48.7,"wh":0}}
+[MEtrip_ms{"proto":"ISO","loop":291,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=47.10A
+[DC][SET] precharge=0 req=384.1V/47.1A reqRaw=384100/47100 maxClamp=384100/47100 margin=5000/94 apply=379100/47006 clampV=0 clampI=0
+CurrentDemand: {"loop":292,"req":{"targetV":384.1,"targetI":47.1},"res":{"v":377.0,"i":48.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":292,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=46.70A
+[DC][SET] precharge=0 req=384.1V/46.7A reqRaw=384100/46700 maxClamp=384100/46700 margin=5000/93 apply=379100/46607 clampV=0 clampI=0
+CurrentDemand: {"loop":293,"req":{"targetV":384.1,"targetI":46.7},"res":{"v":377.0,"i":48.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":293,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=46.20A
+[DC][SET] precharge=0 req=384.1V/46.2A reqRaw=384100/46200 maxClamp=384100/46200 margin=5000/92 apply=379100/46108 clampV=0 clampI=0
+CurrentDemand: {"loop":294,"req":{"targetV":384.1,"targetI":46.2},"res":{"v":377.0,"i":48.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":294,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=46.00A
+[DC][SET] precharge=0 req=384.1V/46.0A reqRaw=384100/46000 maxClamp=384100/46000 margin=5000/92 apply=379100/45908 clampV=0 clampI=0
+CurrentDemand: {"loop":295,"req":{"targetV":384.1,"targetI":46.0},"res":{"v":377.0,"i":48.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":295,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=45.50A
+[DC][SET] precharge=0 req=384.1V/45.5A reqRaw=384100/45500 maxClamp=384100/45500 margin=5000/91 apply=379100/45409 clampV=0 clampI=0
+CurrentDemand: {"loop":296,"req":{"targetV":384.1,"targetI":45.5"res":{"v":377.0,"i":47.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":296,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=45.10A
+[DC][SET] precharge=0 req=384.1V/45.1A reqRaw=384100/45100 maxClamp=384100/45100 margin=5000/90 apply=379100/45010 clampV=0 clampI=0
+CurrentDemand: {"loop":297,"req":{"targetV":384.1,"targetI":45.1},"res":{"v":377.0,"i":46[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":297,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=44.90A
+[DC][SET] precharge=0 req=384.1V/44.9A reqRaw=384100/44900 maxClamp=384100/44900 margin=5000/89 apply=379100/44811 clampV=0 clampI=0
+CurrentDemand: {"loop":298,"req":{"targetV":384.1,"targetI":44.9},"res":{"v":377.0,"i":46.6,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":298,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=44.60A
+[DC][SET] precharge=0 req=384.1V/44.6A reqRaw=384100/44600 maxClamp=384100/44600 margin=5000/89 apply=379100/44511 clampV=0 clampI=0
+CurrentDemand: {"loop":299,"req":{"targetV":384.1,"targetI":44.6},"res":{"v":377.0,"i":45.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":299,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":300,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=44.10A
+[DC][SET] precharge=0 req=384.1V/44.1A reqRaw=384100/44100 maxClamp=384100/44100 margin=5000/88 apply=379100/44012 clampV=0 clampI=0
+CurrentDemand: {"loop":300,"req":{"targetV":384.1,"targetI":44.1},"res":{"v":377.0,"i":45.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":300,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=43.70A
+[DC][SET] precharge=0 req=384.1V/43.7A reqRaw=384100/43700 maxClamp=384100/43700 margin=5000/87 apply=379100/43613 clampV=0 clampI=0
+CurrentDemand: {"loop":301,"req":{"targetV":384.1,"targetI":43.7},"res":{"v":377.0,"i":45.4,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":301,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=43.30A
+[DC][SET] precharge=0 req=384.1V/43.3A reqRaw=384100/43300 maxClamp=384100/43300 margin=5000/86 apply=379100/43214 clampV=0 clampI=0
+CurrentDemand: {"loop":302,"req":{"targetV":384.1,"targetI":43.3},"res":{"v":377.0,"i":45.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":302,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=43.30A
+[DC][SET] precharge=0 req=384.1V/43.3A reqRaw=384100/43300 maxClamp=384100/43300 margin=5000/86 apply=379100/43214 clampV=0 clampI=0
+CurrentDemand: {"loop":303,"req":{"targetV":384.1,"targetI":43.3},"res":{"v":377.0,"i":44.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":303,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=42.80A
+[DC][SET] precharge=0 req=384.1V/42.8A reqRaw=384100/42800 maxClamp=384100/42800 margin=5000/85 apply=379100/42715 clampV=0 clampI=0
+CurrentDemand: {"loop":304,"req":{"targetV":384.1,"targetI":42.8},"res":{"v":377.0,"i":44.6,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":304,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=42.30A
+[DC][SET] precharge=0 req=384.1V/42.3A reqRaw=384100/42300 maxClamp=384100/42300 margin=5000/84 apply=379100/42216 clampV=0 clampI=0
+CurrentDemand: {"loop":305,"req":{"targetV":384.1,"targetI":42.3},"res":{"v":377.0,"i":44.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":305,"value":2,"slow":0}
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+[HLC][ISO] CurrentDemand: target V=384.10V I=41.90A
+[DC][SET] precharge=0 req=384.1V/41.9A reqRaw=384100/41900 maxClamp=384100/41900 margin=5000/83 apply=379100/41817 clampV=0 clampI=0
+CurrentDemand: {"loop":306,"req":{"targetV":384.1,"targetI":41.9},"res":{"v":377.0,"i":43.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":306,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=41.60A
+[DC][SET] precharge=0 req=384.1V/41.6A reqRaw=384100/41600 maxClamp=384100/41600 margin=5000/83 apply=379100/41517 clampV=0 clampI=0
+CurrentDemand: {"loop":307,"req":{"targetV":384.1,"targetI":41.6},"res":{"v":376.0,"i":43.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":307,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=41.20A
+[DC][SET] precharge=0 req=384.1V/41.2A reqRaw=384100/41200 maxClamp=384100/41200 margin=5000/82 apply=379100/41118 clampV=0 clampI=0
+CurrentDemand: {"loop":308,"req":{"targetV":384.1,"targetI":41.2},"res":{"v":376.0,"i":43.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":308,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=40.90A
+[DC][SET] precharge=0 req=384.1V/40.9A reqRaw=384100/40900 maxClamp=384100/40900 margin=5000/81 apply=379100/40819 clampV=0 clampI=0
+CurrentDemand: {"loop":309,"req":{"targetV":384.1,"targetI":40.9},"res":{"v":376.0,"i":43.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":309,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=40.50A
+[DC][SET] precharge=0 req=384.1V/40.5A reqRaw=384100/40500 maxClamp=384100/40500 margin=5000/81 apply=379100/40419 clampV=0 clampI=0
+CurrentDemand: {"loop":310,"req":{"targetV":384.1,"targetI":40.5},"res":{"v":376.0,"i"[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":310,"value":3,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=40.20A
+[DC][SET] precharge=0 req=384.1V/40.2A reqRaw=384100/40200 maxClamp=384100/40200 margin=5000/80 apply=379100/40120 clampV=0 clampI=0
+CurrentDemand: {"loop":311,"req":{"targetV":384.1,"targetI":40.2},"res":{"v":376.0,"i":41.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":311,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=39.70A
+[DC][SET] precharge=0 req=384.1V/39.7A reqRaw=384100/39700 maxClamp=384100/39700 margin=5000/79 apply=379100/39621 clampV=0 clampI=0
+CurrentDemand: {"loop":312,"req":{"targetV":384.1,"targetI":39.7},"res":{"v":376.0,"i":41.6,"wh":0}}
+2,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=39.30A
+[DC][SET] precharge=0 req=384.1V/39.3A reqRaw=384100/39300 maxClamp=384100/39300 margin=5000/78 apply=379100/39222 clampV=0 clampI=0
+CurrentDemand: {"loop":313,"req":{"targetV":384.1,"targetI":39.3},"res":{"v":376.0,"i":41.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":313,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=39.10A
+[DC][SET] precharge=0 req=384.1V/39.1A reqRaw=384100/39100 maxClamp=384100/39100 margin=5000/78 apply=379100/39022 clampV=0 clampI=0
+CurrentDemand: {"loop":314,"req":{"targetV":384.1,"targetI":39.1},"res":{"v":376.0,"i":40.4,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":314,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=38.80A
+[DC][SET] precharge=0 req=384.1V/38.8A reqRaw=384100/38800 maxClamp=384100/38800 margin=5000/77 apply=379100/38723 clampV=0 clampI=0
+CurrentDemand: {"loop":315,"req":{"targetV":384.1,"targetI":38.8},"res":{"v":376.0,"i":40.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":315,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=38.30A
+[DC][SET] precharge=0 req=384.1V/38.3A reqRaw=384100/38300 maxClamp=384100/38300 margin=5000/76 apply=379100/38224 clampV=0 clampI=0
+CurrentDemand: {"loop":316,"req":{"targetV":384.1,"targetI":38.3},"res":{"v":376.0,"i":40.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":316,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=37.90A
+[DC][SET] precharge=0 req=384.1V/37.9A reqRaw=384100/37900 maxClamp=384100/37900 margin=5000/75 apply=379100/37825 clampV=0 clampI=0
+CurrentDemand: {"loop":317,"req":{"targetV":384.1,"targetI":37.9},"res":{"v":376.0,"i":39.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":317,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=37.40A
+[DC][SET] precharge=0 req=384.1V/37.4A reqRaw=384100/37400 maxClamp=384100/37400 margin=5000/74 apply=379100/37326 clampV=0 clampI=0
+CurrentDemand: {"loop":318,"req":{"targetV":384.1,"targetI":37.4},"res":{"v":376.0,"i":39.4,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":318,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=37.20A
+[DC][SET] precharge=0 req=384.1V/37.2A reqRaw=384100/37200 maxClamp=384100/37200 margin=5000/74 apply=379100/37126 clampV=0 clampI=0
+CurrentDemand: {"loop":319,"req":{"targetV":384.1,"targetI":37.2_roundtrip_ms{"proto":"ISO","loop":319,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=36.70A
+[DC][SET] precharge=0 req=384.1V/36.7A reqRaw=384100/36700 maxClamp=384100/36700 margin=5000/73 apply=379100/36627 clampV=0 clampI=0
+CurrentDemand: {"loop":320,"req":{"targetV":384.1,"targetI":36.7},"res":{"v":376.wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":320,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=36.30A
+[DC][SET] precharge=0 req=384.1V/36.3A reqRaw=384100/36300 maxClamp=384100/36300 margin=5000/72 apply=379100/36228 clampV=0 clampI=0
+CurrentDemand: {"loop":321,"req":{"targetV":384.1,"targetI":36.3},"res":{"v":375.0,"i":38.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":321,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=36.00A
+[DC][SET] precharge=0 req=384.1V/36.0A reqRaw=384100/36000 maxClamp=384100/36000 margin=5000/72 apply=379100/35928 clampV=0 clampI=0
+CurrentDemand: {"loop":322,"req":{"targetV":384.1,"targetI":36.0},"res":{"v":375.0,"i":38.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":322,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=35.80A
+[DC][SET] precharge=0 req=384.1V/35.8A reqRaw=384100/35800 maxClamp=384100/35800 margin=5000/71 apply=379100/35729 clampV=0 clampI=0
+CurrentDemand: {"loop":323,"req":{"targetV":384.1,"targetI":35.8},"res":{"v":375.0,"i":37.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":323,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=35.30A
+[DC][SET] precharge=0 req=384.1V/35.3A reqRaw=384100/35300 maxClamp=384100/35300 margin=5000/70 apply=379100/35230 clampV=0 clampI=0
+CurrentDemand: {"loop":324,"req":{"targetV":384.1,"targetI":35.3},"res":{"v":375.0,"i":37.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"nt_demand_roundtrip_summary{"samples":325,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=34.80A
+[DC][SET] precharge=0 req=384.1V/34.8A reqRaw=384100/34800 maxClamp=384100/34800 margin=5000/69 apply=379100/34731 clampV=0 clampI=0
+CurrentDemand: {"loop":325,"req":{"targetV":384.1,"targetI":34.8},"res":{"v":375.0,"i":36.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":325,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=34.60A
+[DC][SET] precharge=0 req=384.1V/34.6A reqRaw=384100/34600 maxClamp=384100/34600 margin=5000/69 apply=379100/34531 clampV=0 clampI=0
+CurrentDemand: {"loop":326,"req":{"targetV":384.1,"targetI":34.6},"res":{"v":375.0,"i":36.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":326,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=34.10A
+[DC][SET] precharge=0 req=384.1V/34.1A reqRaw=384100/34100 maxClamp=384100/34100 margin=5000/68 apply=379100/34032 clampV=0 clampI=0
+CurrentDemand: {"loop":327,"req":{"targetV":384.1,"targetI":34.1},"res":{"v":375.0,"i":35.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":327,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=33.70A
+[DC][SET] precharge=0 req=384.1V/33.7A reqRaw=384100/33700 maxClamp=384100/33700 margin=5000/67 apply=379100/33633 clampV=0 clampI=0
+CurrentDemand: {"loop":328,"req":{"targetV":384.1,"targetI":33.7},"res":{"v":375.0,"i":35.6,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":328,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=33.20A
+[DC][SET] precharge=0 req=384.1V/33.2A reqRaw=384100/33200 maxClamp=384100/33200 margin=5000/66 apply=379100/33134 clampV=0 clampI=0
+CurrentDemand: {"loop":329,"req":{"targetV":384.1,"targetI":33.2},"res":{"v":375.0,"i":35.4,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":329,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=33.00A
+[DC][SET] precharge=0 req=384.1V/33.0A reqRaw=384100/33000 maxClamp=384100/33000 margin=5000/66 apply=379100/32934 clampV=0 clampI=0
+CurrentDemand: {"loop":330,"req":{"targetV":384.1,"targetI":33.0},"res":{"v":375.0,"i":35.3,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":330,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=32.70A
+[DC][SET] precharge=0 req=384.1V/32.7A reqRaw=384100/32700 maxClamp=384100/32700 margin=5000/65 apply=379100/32635 clampV=0 clampI=0
+CurrentDemand: {"loop":331,"req":{"targetV":384.1,"targetI":32.7},"res":{"v":375.0,"i":34.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":331,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=32.30A
+[DC][SET] precharge=0 req=384.1V/32.3A reqRaw=384100/32300 maxClamp=384100/32300 margin=5000/64 apply=379100/32236 clampV=0 clampI=0
+CurrentDemand: {"loop":332,"req":{"targetV":384.1,"targetI":32.3},"res":{"v":375.0,"i":34.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":332,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=31.80A
+[DC][SET] precharge=0 req=384.1V/31.8A reqRaw=384100/31800 maxClamp=384100/31800 margin=5000/63 apply=379100/31737 clampV=0 clampI=0
+CurrentDemand: {"loop":333,"req":{"targetV":384.1,"targetI":31.8},"res":{"v":375.0,"i":34.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":333,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=31.60A
+[DC][SET] precharge=0 req=384.1V/31.6A reqRaw=384100/31600 maxClamp=384100/31600 margin=5000/63 apply=379100/31537 clampV=0 clampI=0
+CurrentDemand: {"loop":334,"req":{"targetV":384.1,"targetI":31.6},"res":{"v":375.0"i":32.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":334,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=31.40A
+[DC][SET] precharge=0 req=384.1V/31.4A reqRaw=384100/31400 maxClamp=384100/31400 margin=5000/62 apply=379100/31338 clampV=0 clampI=0
+CurrentDemand: {"loop":335,"req":{"targetV":384.1,"targetI":31.4},"res":{"v":374.0,"i":32.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":335,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=30.90A
+[DC][SET] precharge=0 req=384.1V/30.9A reqRaw=384100/30900 maxClamp=384100/30900 margin=5000/61 apply=379100/30839 clampV=0 clampI=0
+CurrentDemand: {"loop":336,"req":{"targetV":384.1,"targetI":30.9},"res":{"v":374.0,"i":32.7,"wh":0}}
+[MEC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":336,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=30.50A
+[DC][SET] precharge=0 req=384.1V/30.5A reqRaw=384100/30500 maxClamp=384100/30500 margin=5000/61 apply=379100/30439 clampV=0 clampI=0
+CurrentDemand: {"loop":337,"req":{"targetV":384.1,"targetI":30.5},"res":{"v":374.0,"i":31.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":337,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=30.20A
+[DC][SET] precharge=0 req=384.1V/30.2A reqRaw=384100/30200 maxClamp=384100/30200 margin=5000/60 apply=379100/30140 clampV=0 clampI=0
+CurrentDemand: {"loop":338,"req":{"targetV":384.1,"targetI":30.2},"res":{"v":374.0,"i":31[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":338,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=29.90A
+[DC][SET] precharge=0 req=384.1V/29.9A reqRaw=384100/29900 maxClamp=384100/29900 margin=5000/59 apply=379100/29841 clampV=0 clampI=0
+CurrentDemand: {"loop":339,"req":{"targetV":384.1,"targetI":29.9},"4.0,"i":31.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":339,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=29.40A
+[DC][SET] precharge=0 req=384.1V/29.4A reqRaw=384100/29400 maxClamp=384100/29400 margin=5000/58 apply=379100/29342 clampV=0 clampI=0
+CurrentDemand: {"loop":340,"req":{"targetV":384.1,"targetI":29.4},"res":{"v":374.0,"i":31.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":340,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=29.20A
+[DC][SET] precharge=0 req=384.1V/29.2A reqRaw=384100/29200 maxClamp=384100/29200 margin=5000/58 apply=379100/29142 clampV=0 clampI=0
+CurrentDemand: {"loop":341,"req":{"targetV":384.1,"targetI":29.2},"res":{"v":374.0,"i":31.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":341,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=28.70A
+[DC][SET] precharge=0 req=384.1V/28.7A reqRaw=384100/28700 maxClamp=384100/28700 margin=5000/57 apply=379100/28643 clampV=0 clampI=0
+CurrentDemand: {"loop":342,"req":{"targetV":384.1,"targetI":28.7},"res":{"v":374.0,"i":30.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":342,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=28.30A
+[DC][SET] precharge=0 req=384.1V/28.3A reqRaw=384100/28300 maxClamp=384100/28300 margin=5000/56 apply=379100/28244 clampV=0 clampI=0
+CurrentDemand: {"loop":343,"req":{"targetV":384.1,"targetI":28.3},"res":{"v":374.0,"i":29.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":343,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=28.00A
+[DC][SET] precharge=0 req=384.1V/28.0A reqRaw=384100/28000 maxClamp=384100/28000 margin=5000/56 apply=379100/27944 clampV=0 clampI=0
+CurrentDemand: {"loop":344,"req":{"targetV":384.1,"targetI":28.0},"res":{"v":374.0,"i":29.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":344,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=27.50A
+[DC][SET] precharge=0 req=384.1V/27.5A reqRaw=384100/27500 maxClamp=384100/27500 margin=5000/55 apply=379100/27445 clampV=0 clampI=0
+CurrentDemand: {"loop":345,"req":{"targetV":384.1,"targetI":27.5},"re28.7,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":345,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=27.10A
+[DC][SET] precharge=0 req=384.1V/27.1A reqRaw=384100/27100 maxClamp=384100/27100 margin=5000/54 apply=379100/27046 clampV=0 clampI=0
+CurrentDemand: {"loop":346,"req":{"targetV":384.1,"targetI":27.1},"r_roundtrip_ms{"proto":"ISO","loop":346,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=26.80A
+[DC][SET] precharge=0 req=384.1V/26.8A reqRaw=384100/26800 maxClamp=384100/26800 margin=5000/53 apply=379100/26747 clampV=0 clampI=0
+CurrentDemand: {"loop":347,"req":{"targetV":384.1,"targetI":26.8},"res":{"v":374.0,"i":28.6,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":347,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=26.40A
+[DC][SET] precharge=0 req=384.1V/26.4A reqRaw=384100/26400 maxClamp=384100/26400 margin=5000/52 apply=379100/26348 clampV=0 clampI=0
+CurrentDemand: {"loop":348,"req":{"targetV":384.1,"targetI":26.4},"res":{"v":374.0,"i":27.6,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":348,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=26.10A
+[DC][SET] precharge=0 req=384.1V/26.1A reqRaw=384100/26100 maxClamp=384100/26100 margin=5000/52 apply=379100/26048 clampV=0 clampI=0
+CurrentDemand: {"loop":349,"req":{"targetV":384.1,"targetI":26.1},"res":{"v":373.0,"i":27.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":349,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":350,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=25.70A
+[DC][SET] precharge=0 req=384.1V/25.7A reqRaw=384100/25700 maxClamp=384100/25700 margin=5000/51 apply=379100/25649 clampV=0 clampI=0
+CurrentDemand: {"loop":350,"req":{"targetV":384.1,"targetI":25.7},"res":{"v":373.0,"i":27.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":350,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=25.20A
+[DC][SET] precharge=0 req=384.1V/25.2A reqRaw=384100/25200 maxClamp=384100/25200 margin=5000/50 apply=379100/25150 clampV=0 clampI=0
+CurrentDemand: {"loop":351,"req":{"targetV":384.1,"targetI":25.2},"res":{"v":373.0,"i":27.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":351,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=25.00A
+[DC][SET] precharge=0 req=384.1V/25.0A reqRaw=384100/25000 maxClamp=384100/25000 margin=5000/50 apply=379100/24950 clampV=0 clampI=0
+CurrentDemand: {"loop":352,"req":{"targetV":384.1,"targetI":25.0},"re_demand_roundtrip_ms{"proto":"ISO","loop":352,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=24.50A
+[DC][SET] precharge=0 req=384.1V/24.5A reqRaw=384100/24500 maxClamp=384100/24500 margin=5000/49 apply=379100/24451 clampV=0 clampI=0
+CurrentDemand: {"loop":353,"req":{"targetV":384.1,"targetI":24.5},"res":{"v":373.0,"i":26.9,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":353,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=24.30A
+[DC][SET] precharge=0 req=384.1V/24.3A reqRaw=384100/24300 maxClamp=384100/24300 margin=5000/48 apply=379100/24252 clampV=0 clampI=0
+CurrentDemand: {"loop":354,"req":{"targetV":384.1,"targetI":24.3},"res":{"v":373.0,"i":25.6,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":354,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=23.80A
+[DC][SET] precharge=0 req=384.1V/23.8A reqRaw=384100/23800 maxClamp=384100/23800 margin=5000/47 apply=379100/23753 clampV=0 clampI=0
+CurrentDemand: {"loop":355,"req":{"targetV":384.1,"targetI":23.8},"res":{"v":373.0,"i":25.4,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":355,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=23.60A
+[DC][SET] precharge=0 req=384.1V/23.6A reqRaw=384100/23600 maxClamp=384100/23600 margin=5000/47 apply=379100/23553 clampV=0 clampI=0
+CurrentDemand: {"loop":356,"req":{"targetV":384.1,"targetI":23.6_roundtrip_ms{"proto":"ISO","loop":356,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=23.20A
+[DC][SET] precharge=0 req=384.1V/23.2A reqRaw=384100/23200 maxClamp=384100/23200 margin=5000/46 apply=379100/23154 clampV=0 clampI=0
+CurrentDemand: {"loop":357,"rergetI":23.2},"res":{"v":373.0,"i":24.8,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":357,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=22.70A
+[DC][SET] precharge=0 req=384.1V/22.7A reqRaw=384100/22700 maxClamp=384100/22700 margin=5000/45 apply=379100/22655 clampV=0 clampI=0
+CurrentDemand: {"loop":358,"req":{"targetV":384.1,"targetI":22.7},"res":{"v":373.0,"i":24.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":358,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=22.30A
+[DC][SET] precharge=0 req=384.1V/22.3A reqRaw=384100/22300 maxClamp=384100/22300 margin=5000/44 apply=379100/22256 clampV=0 clampI=0
+CurrentDemand: {"loop":359,"req":{"targetV":384.1,"targetI":22.3},"res":{"v":373.0,"i":23.3,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":359,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=22.30A
+[DC][SET] precharge=0 req=384.1V/22.3A reqRaw=384100/22300 maxClamp=384100/22300 margin=5000/44 apply=379100/22256 clampV=0 clampI=0
+CurrentDemand: {"loop":360,"req":{"targetV":384.1,"targetI":22.3},"res":{"v":373.0,"i":23.3,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":360,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=21.90A
+[DC][SET] precharge=0 req=384.1V/21.9A reqRaw=384100/21900 maxClamp=384100/21900 margin=5000/43 apply=379100/21857 clampV=0 clampI=0
+CurrentDemand: {"loop":361,"req":{"targetV":384.1,"targetI":21.9},"res":{"v":373.0,"i":23.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":361,"value":2,"slow":0}
+[CP] state C -> B (pkWin=2194 pk=2194 plateau=1910)
+[STAT] cp=B duty=5% sess=1 mode=6 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RELAY_IO] relays set r1=0 r2=1 r3=0
+[RELAY_IO] relays set r1=0 r2=0 r3=0
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC] stage timeout without inbound frame (stage=10 elapsed=60074 budget=60000), resetting session
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words

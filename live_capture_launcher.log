@@ -1,0 +1,9 @@
+Capture dir: /home/jpi/Desktop/EVSE/logs/live_autocharge_20260221T022827Z
+Duration   : 7200s
+CAN iface  : can0
+PLC port0  : /dev/ttyACM0
+PLC port1  : /dev/ttyACM1
+Use existing dc_ocpp: 0
+
+Now plug EV and start a fresh session (RFID / autocharge).
+
