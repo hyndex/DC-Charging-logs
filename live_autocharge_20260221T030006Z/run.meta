@@ -1,0 +1,14 @@
+outdir=/home/jpi/Desktop/EVSE/logs/live_autocharge_20260221T030006Z
+start_utc=20260221T030006Z
+can_iface=can0
+plc_port0=/dev/ttyACM0
+plc_port1=/dev/ttyACM1
+use_existing_dc_ocpp=0
+basic_rev=39095fc
+basic_rev_dirty=39095fc-dirty
+dc_ocpp_rev=28d69a6
+dc_ocpp_rev_dirty=28d69a6-dirty
+dc_pid=125837
+can_pid=125834
+ser0_pid=125835
+ser1_pid=125836

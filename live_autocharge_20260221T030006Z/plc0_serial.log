@@ -1,0 +1,768 @@
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:07 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:08: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:08 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:08: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:09 ===
+[PLC] not ready: link=1 slac=0 keyed=1 vent_block=0 cp_connected=1
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+p=B duty=5% sess=1 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:11: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:11 ===
+Modem Search..
+[STAT] cp=B duty=5% sess=1 mode=4received GET_SW.CNF
+[SLAC] new run started sounds=10 epoch=4
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=2 modem=20 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+received CM_START_ATTEN_CHAR.IND
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=3 modem=30 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+received CM_START_ATTEN_CHAR.IND
+received CM_START_ATTEN_CHAR.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_ATTEN_CHAR.RSP
+Successful SLAC process
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=5 modem=50 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=1
+received CM_SLAC_MATCH.REQ
+transmitting CM_SLAC_MATCH.CNF
+
+==================================================
+### ** SLAC MATCH ** ###
+==================================================
+
+[PLC] readiness ON (cp=B link=1 keyed=1 slac=1 hw=1)
+[STAT] cp=B duty=5% sess=1 mode=4 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+[PLC] PLC ready
+[STAT] cp=B duty=5% sess=1 mode=6 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+ICMPv6 received
+Its a UDP.
+it is a SDP request from the car to the charger
+Ok, this was a valid SDP request. We are the SECC. Sending SDP response. tls=0
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+-------------- TCP connection established ---------------
+
+SupportedApplicationProtocolRequest handled, selecting ISO15118-2 (Schema 0)
+SessionSetupReq.hex: 80010000000E80004011D01A2326CDE4FDA000
+
+SessionSetup: {"req":{"evccid":"88C9B3793F68"},"res":{"sessionId":"C4AF1528A4E957DB","evseId":"SECC_ID_123","responseCode":"OK"}}
+ServiceDiscoveryReq.hex: 8001000D809802312BC54A293A55F6
+ServiceDiscovery: {"res":{"responseCode":"OK"}}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:15: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:15 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:18: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:18 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:18: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:19 ===
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:20: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:20 ===
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+[SLAC] drop PARAM (cp=C, expected B)
+[SLAC] drop PARAM (cp=C, expected B)
+[SLAC] drop PARAM (cp=C, expected B)
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:25: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:26 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:37: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:37 ===
+[CP] state B -> A (pkWin=2539 pk=2539 plateau=805)
+[SLAC] re[PLC] readiness OFF (cp=A link=1 keyed=1 slac=0 hw=1)
+[CP] duty -> 100% (pwm_ok=0 conn=0 hold=0 vent_block=0 hw=1 keyed=1 latched=0)
+[STAT] cp=A duty=100% sess=1 mode=0 slacP=0 modem=120 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+[RELAY_IO] relays set r1=0 r2=0 r3=0
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:44: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:45 ===
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=2 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=2 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:46: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:47 ===
+MODEM timer expired. (re)transmitting MODEM_GET_SW.REQ
+[STAT] cp=B duty=5% sess=2 mode=4 slacP=1 modem=100 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+Modem Search..
+[STAT] cp=B duty=5% sess=2 mode=4 slacP=1 modem=110 hw=1 keyed=1 slac=0 hold=0 vent_block=0 disc_pause=0
+received GET_SW.CNF
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:49: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:49 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:49: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:50 ===
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+received CM_MNBC_SOUND.IND
+transmitting CM_ATTEN_CHAR.IND (sounds complete)
+received CM_ATTEN_CHAR.RSP
+Successful SLAC process
+### ** SLAC MATCH ** ###
+==================================================
+
+[PLC] readiness ON (cp=B link=1 keyed=1 slac=1 hw=1)
+ modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+[PLC] PLC ready
+ICMPv6 received
+Its a UDP.
+it is a SDP request from the car to the charger
+Ok, this was a valid SDP request. We are the SECC. Sending SDP response. tls=0
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+-------------- TCP connection established ---------------
+
+SupportedApplicationProtocolRequest handled, selecting ISO15118-2 (Schema 0)
+SessionSetupReq.hex: 01FE80010000000E8098004011D01ACDE4FDA000
+ISO SessionSetupRequest EVCCID=88c9b3793f68
+SessionSetup: {"req":{"evccid":"88C9B3793F68"},"res":{"sessionId":"9325562444DF598D","evseId":"SECC_ID_123","responseCode":"OK"}}
+ServiceDiscoveryReq.hex: 01FE8001000D80980224C951137D66351B8
+ISO ServiceDiscoveryRequest
+ServiceDiscovery: {"res":{"responseCode":"OK"}}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:52: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:52 ===
+CableCheckReq.hex: 800100980224C955891137D6635031002400
+ISO CableCheckRequest
+CableCheck: {"req":{"soc":72},"res":{"status":1}}
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+ICMPv6 received
+[RELAY_IO] relays set r1=0 r2=1 r3=0
+[RELAY_IO] relays set r1=1 r2=1 r3=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:56: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:56 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:56: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:57 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:57: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:57 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:57: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:58 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:58: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:58 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:58: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:59 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:30:59: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:30:59 ===
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:00: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:01 ===
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:01: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:02 ===
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+ISO PreChargeRequest
+[HLC][ISO] PreCharge: target V=360.50V I=2.00A
+[DC][SET] precharge=1 req=360.5V/2.0A reqRaw=360500/2000 maxClamp=360500/2000 margin=0/0 apply=360500/2000 clampV=0 clampI=0
+PowerDeliveryReq.hex: 80010000001380980224C955891137D6635150000220048100PowerDelivery: {"req":{"progress":"Start"}}
+661 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":0,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summares":1,"slow_samples":0,"avg_ms":1,"max_ms":1}
+[HLC][ISO] CurrentDemand: target V=384.10V I=21.70A
+[DC][SET] precharge=0 req=384.1V/21.7A reqRaw=384100/21700 maxClamp=384100/21700 margin=5000/43 apply=379100/21657 clampV=0 clampI=0
+CurrentDemand: {"loop":1,"req":{"targetV":384.1,"targetI":21.7},"res":{"v":360.0,"i":0.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":1,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=23.60A
+[DC][SET] precharge=0 req=384.1V/23.6A reqRaw=384100/23600 maxClamp=384100/23600 margin=5000/47 apply=379100/23553 clampV=0 clampI=0
+CurrentDemand: {"loop":2,"req":{"targetV":384.1,"targetI":23.6},"res"undtrip_ms{"proto":"ISO","loop":2,"value":2,"slow":0}
+5600 margin=5000/51 apply=379100/25549 clampV=0 clampI=0
+CurrentDemand: {"loop":3,"req":{"targetV":384.1,"targetI":25.6},"res":{"v":360.0,"i"[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":3,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=27.60A
+[DC][SET] precharge=0 req=384.1V/27.6A reqRaw=384100/27600 maxClamp=384100/27600 margin=5000/55 apply=379100/27545 clampV=0 clampI=0
+CurrentDemand: {"loop":4,"req":{"targetV":384.1,"targetI":27.6},"res":{"v":361.0,"i":19.2,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":4,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=29.60A
+[DC][SET] precharge=0 req=384.1V/29.6A reqRaw=384100/29600 maxClamp=384100/29600 margin=5000/59 apply=379100/29541 clampV=0 clampI=0
+CurrentDemand: {"loop":5,"req":{"targetV":384.1,"targetI":29.6},"res":{"v":361.0,"i":19.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":5,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=31.60A
+[DC][SET] precharge=0 req=384.1V/31.6A reqRaw=384100/31600 maxClamp=384100/31600 margin=5000/63 apply=379100/3153CurrentDemand: {"loop":6,"req":{"targetV":384.1,"targetI":31.6},"res":{"v":363.0,"i":19.5,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":6,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=33.50A
+[DC][SET] precharge=0 req=384.1V/33.5A reqRaw=384100/33500 maxClamp=384100/33500 margin=5000/67 apply=379100/33433 clampV=0 clampI=0
+CurrentDemand: {"loop":7,"req":{"targetV":384.1,"targetI":33.5nd_roundtrip_ms{"proto":"ISO","loop":7,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=35.50A
+[DC][SET] precharge=0 req=384.1V/35.5A reqRaw=384100/35500 maxClamp=384100/35500 margin=5000/71 apply=379100/35429 clampV=0 clampI=0
+CurrentDemand: {"loop":8,"req":{"targetV":384.1,"targetI":35.5},"res":{"v":364.0,"i":25.3,"wh":0}}
+[MET"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=37.50A
+[DC][SET] precharge=0 req=384.1V/37.5A reqRaw=384100/37500 maxClamp=384100/37500 margin=5000/75 apply=379100/37425 clampV=0 clampI=0
+CurrentDemand: {"loop":9,"req":{"targetV":384.1,"targetI":37.5},"res":{"v":365.0,"i":31.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":9,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=39.50A
+[DC][SET] precharge=0 req=384.1V/39.5A reqRaw=384100/39500 maxClamp=384100/39500 margin=5000/79 apply=379100/39421 clampV=0 clampI=0
+CurrentDemand: {"loop":10,"req":{"targetV":384.1,"targetI":39.5},"res":{"v":365.0,"i":31.3,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":10,"value":2,"slow":0}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:04: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:05 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:05: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:06 ===
+V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+etV":384.1,"targetI":51.3},"res":{"v":368.0,"i":49.6,"wh":0}}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+0 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+roundtrip_ms{"proto":"ISO","loop":20,"value":2,"slo
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:06: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:07 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:07: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:07 ===
+clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":29,"value":2,"slow":0}
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roun[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+loop":31,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":370.0,"i":51.1,"wh":0}}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+CurrentDemand: {"loop":32,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":32,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":33,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":33,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":34,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":34,"value":2,"slow":0}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:09: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:09 ===
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":39,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":39,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":40,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":40,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":41,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":41,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":42,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":42,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":43,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":371.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":43,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":44,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":44,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":45,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":45,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":46,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC]
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:11: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:11 ===
+CurrentDemand: {"loop":51,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":51,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":52,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":52,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":53,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":53,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 claCurrentDemand: {"loop":54,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":54,"value":4,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":55,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":372.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":55,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":56,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[M
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:13: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:13 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:13: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:14 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:14: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:14 ===
+mpI=0
+CurrentDemand: {"loop":67,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":67,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":68,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":68,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":69,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":373.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":69,"value":2,"slow":0}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:15: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:15 ===
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":73,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":73,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"lo.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":74,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":75,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":75,"req":{"targetV":384.1,"targetI
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:16: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:17 ===
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":79,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":79,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.30A
+[DC][SET] precharge=0 req=384.1V/51.3A reqRaw=384100/51300 maxClamp=384100/51300 margin=5000/102 apply=379100/51198 clampV=0 clampI=0
+CurrentDemand: {"loop":80,"req":{"targetV":384.1,"targetI":51.3},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":80,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"l
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:17: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:18 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:18: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:18 ===
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":88,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":88,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":89,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":374.0,"i":51.1,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":89,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":90,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":374.0,"i":51.0,"wh":
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:19: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:19 ===
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":94,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":94,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"lo,"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":95,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":96,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":96,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 cla_ms{"proto":"ISO","loop":97,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+CurrentDemand: {"loop":98,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:20: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:21 ===
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":102,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":102,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":103,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":103,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":104,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":104,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clarentDemand: {"loop":105,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+CurrentDemand: {"loop":106,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+"proto":"ISO","loop":106,"value":2,"slow":0}
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+7,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"IS[HLC][ISO] Curre[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 claCurrentDemand: {"loop":108,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i"[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":109,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384mpI=0
+[METRIC[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+CurrentDemand: {"loop":111,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+CurrentDemand: {"loop":112,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+oundtrip_ms{"proto":"ISO","loop":112,"value":1,"slow":0}
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+: {"loop":113,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":114,"value":2,"slow":0}
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+targetV":384.1,"targetI":51.2},"res":{"v":375.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":116,"value"[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+I":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":118,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[HLC][ISO[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":120,"value":2,"slow":0}
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:24: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:25 ===
+emand_roundtrip_ms{"proto":"ISO","loop":123,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":124,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":124,"value":1,"slow":0}
+[METRIC] hlc.current_demand_roundtrip_summary{"samples":125,"slow_samples":0,"avg_ms":1,"max_ms":4}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":125,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":125,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 max
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:25: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:26 ===
+100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":130,"req":{"targetV":384.1,"targetI":51.2},"r_roundtrip_ms{"proto":"ISO","loop":130,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":131,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":131,"value":3,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":132,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":132,"value":2,"slow":0}
+ICMPv6 received
+Neighbor Solicitation received
+transmitting Neighbor Advertisement
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":133,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":133,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":134,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":134,"value":1,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxCla
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:27: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:28 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:28: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:28 ===
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":142,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":142,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":143,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":143,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":144,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":144,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":145,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":145,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":146,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":146,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":147,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":147,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+mpI=0
+CurrentDemand: {"loop":148,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":148,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":149,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":376.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":149,"value":2,"slow":0}
+[METRIC] hlc.current_demand_round
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:30: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:30 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:30: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:31 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:31: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:32 ===
+ maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":161,"value":2,"slow":0}
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":162,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":162,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":163,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":163,"value":1,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 claCurrentDemand: {"loop":164,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":164,"value":2,"slow":0}
+[HLC][ISO] CurrentDemand: target V=384.10V I=51.20A
+[DC][SET] precharge=0 req=384.1V/51.2A reqRaw=384100/51200 maxClamp=384100/51200 margin=5000/102 apply=379100/51098 clampV=0 clampI=0
+CurrentDemand: {"loop":165,"req":{"targetV":384.1,"targetI":51.2},"res":{"v":377.0,"i":51.0,"wh":0}}
+[METRIC] hlc.current_demand_roundtrip_ms{"proto":"ISO","loop":165,"value":2,"slow":0}
+[STAT] cp=B duty=5% sess=2 mode=6 slacP=6 modem=120 hw=1 keyed=1 slac=1 hold=0 vent_block=0 disc_pause=1
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:45: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:46 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:31:57: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:31:57 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:32:07: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:32:07 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:32:22: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:32:22 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+=60000), resetting session
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:32:42: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:32:43 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+1584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES]min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:34:42: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:34:43 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:35:18: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:35:18 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:35:33: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:35:33 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:35:43: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:35:43 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:36:08: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:36:08 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+ee=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:37:03: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:37:03 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:37:28: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:37:28 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:38:48: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:38:49 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:38:58: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:38:59 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:39:08: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:39:09 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:39:23: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:39:24 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:40:24: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:40:24 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:40:39: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:40:39 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+
+=== SERIAL DISCONNECT /dev/ttyACM0 @ 2026-02-21T08:40:54: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM0 115200 @ 2026-02-21T08:40:54 ===
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words
+[RES] heap_free=21584 heap_min=21336 psram_free=2029439 stack_hwm=10548 words

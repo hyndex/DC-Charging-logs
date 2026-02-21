@@ -1,0 +1,1006 @@
+Capturing serial to /home/jpi/Desktop/EVSE/logs/live_autocharge_20260221T030006Z/plc1_serial.log (baud=115200, duration=1200s)
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:30:07 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt 6064 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:30:24: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:30:24 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:30:25: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:30:26 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:30:40: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:30:41 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:30:49: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:30:50 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:30:56: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:30:57 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:30:59: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:00 ===
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:04: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:05 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:12: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:13 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:19: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:20 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:22: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:23 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:30: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:31 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:32: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:33 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:37: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:38 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:46: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:46 ===
+[SLAC] drop mnt a062 (CP not connected)
+AC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+2 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:31:55: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:31:56 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+AC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+39 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:32:20: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:32:21 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:32:25: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:32:25 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+AC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:32:48: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:32:49 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 [SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+d)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:33:00: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:33:00 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:33:01: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:33:02 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] dr[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:33:29: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:33:29 ===
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+d)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:33:40: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:33:41 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:33:50: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:33:51 ===
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 [SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:33:54: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:33:54 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:03: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:04 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:05: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:06 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:07: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:07 ===
+[SLAC] drop mnt a062 (CP not connected)
+AC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:12: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:12 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:13: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:14 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:15: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:16 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:18: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:19 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:30: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:30 ===
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:33: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:33 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:46: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:47 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:48: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:48 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:49: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:50 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:53: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:53 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:34:54: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:34:55 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+AC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:35:11: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:35:11 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:35:12: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:35:13 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:35:37: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:35:38 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:35:57: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:35:57 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:36:02: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:36:02 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:36:07: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:36:07 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:36:16: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:36:16 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP no[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:36:37: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:36:38 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:36:42: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:36:42 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not conn[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:36:59: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:36:59 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:03: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:04 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:27: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:27 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:28: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:29 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:37: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:37 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:43: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:44 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:53: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:53 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:37:58: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:37:58 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:38:21: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:38:22 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:38:23: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:38:23 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:38:24: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:38:25 ===
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:38:29: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:38:30 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:38:33: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:38:33 ===
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:38:36: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:38:36 ===
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[2433682][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:39:07: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:39:08 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:39:09: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:39:10 ===
+[SLAC] drop mnt a062 (CP not connected)
+ mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:39:17: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:39:18 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:39:19: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:39:19 ===
+[SLAC] drop mnt a062 (CP not connected)
+
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES][SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:03: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:04 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:20: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:20 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:28: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:28 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:38: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:38 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:41: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:41 ===
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:43: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:43 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:40:49: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:40:50 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not [SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:41:23: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:41:23 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+
+=== SERIAL DISCONNECT /dev/ttyACM1 @ 2026-02-21T08:41:33: device reports readiness to read but returned no data (device disconnected or multiple access on port?) ===
+
+=== SERIAL CONNECT /dev/ttyACM1 115200 @ 2026-02-21T08:41:33 ===
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] [SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[RES] heap_free=22468 heap_min=22344 psram_free=2029439 stack_hwm=14056 words
+[SLAC] drop m[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
+[SLAC] drop mnt a062 (CP not connected)
